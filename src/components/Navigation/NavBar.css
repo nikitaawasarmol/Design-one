@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+	
+	/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 a {
@@ -14,12 +18,15 @@ li {
 }
 
 .main-nav {
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
 	width: 100%;
-	height: 4.2rem;
+	height: 3.5rem;
 	display: grid;
-	grid-template-columns: 2rem 0.2fr 1fr 1fr 2rem;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	grid-template-columns: 2rem 0.2fr 1fr 2fr 2rem;
+	/* box-shadow: rgba(50, 50, 93) 0px 20px 1px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+	border-bottom: 1.6px solid rgb(234, 231, 231);
 }
 .logo {
 	display: grid;
@@ -38,7 +45,7 @@ li {
 	color: black;
 }
 .menu-link ul li a span {
-	color: orange;
+	color: #ff764d;
 }
 .menu-link ul {
 	
@@ -47,7 +54,34 @@ li {
 	justify-content: space-around;
 	align-items: center;
 }
-
+.second {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	grid-column: 3/4;
+	color: black;
+	display: grid;
+	margin-left: 21px;
+	grid-template-columns: 10rem 1fr 1fr 1fr 2rem;
+	/* width: 50%;
+	grid-column: 2/3;
+	justify-content: space-around;
+	display: grid;
+	background-color: #363636;
+	grid-template-columns: 2rem 0.2fr 1fr 2fr; */
+}
+.second ul li a {
+	color: black;
+}
+.second ul li a span {
+	color: #ff764d;
+}
+.second ul {
+	
+	height: 3.9rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 /* .links {
 	grid-column: 4/5;
   }
@@ -81,7 +115,7 @@ li {
 	height: 3.9rem;
 	display: grid;
 	/* justify-content: space-around; */
-	grid-template-columns: 2fr repeat(2, 1fr);
+	grid-template-columns: 4fr repeat(2, 1fr);
 	align-items: center;
 }
 .links ul li {
@@ -91,7 +125,7 @@ li {
 	color: black;
 }
 .links ul li a span {
-	color: blue;
+	color: #0000ff;
 }
 .links ul li:first-child {
 	grid-column: 2/3;

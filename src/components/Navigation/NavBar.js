@@ -43,11 +43,10 @@ const Navbar = () => {
               
               </a>
           </li>
-
-
         </ul>
       </div>
 
+     
       {/* login register */}
 
       <div className='links'>
@@ -62,6 +61,23 @@ const Navbar = () => {
         </ul>
       </div>
      </nav>
+
+     <div className='second'>
+    <ul>
+          <li>
+            <a href='./live'>Live</a>
+          </li>
+
+          <li>
+            <a href='./Push'>Push</a>
+          </li>
+
+          <li>
+            <a href='./Link'>Link</a>
+          </li>
+    </ul>
+
+    </div>
     </>
   );
 };
