@@ -1,17 +1,17 @@
 import React from 'react';
-import "./NavBar.css"
+import styles from './navbar.module.css';
 import { FiAperture } from "react-icons/fi";
 import { AiOutlinePlus } from "react-icons/ai"
 const Navbar = () => {
   return (
     <>
-     <nav className='main-nav'>
+     <nav className={styles.mainNav}>
       {/* logo div */}
-      <div className='logo'>
+      <div className={styles.logo}>
         <FiAperture />
       </div>
       {/* menu div */}
-      <div className='menu-link'>
+      <div className={styles.menuLink}>
         <ul>
           <li>
             <a href='./live'>Live</a>
@@ -49,8 +49,8 @@ const Navbar = () => {
      
       {/* login register */}
 
-      <div className='links'>
-        <ul className='links-desktop'>
+      <div className={styles.links}>
+        <ul className={styles.linksDesktop}>
           <li>
             <a href="./page"><span>Try Live for free</span></a>
           </li>
@@ -62,7 +62,7 @@ const Navbar = () => {
       </div>
      </nav>
 
-     <div className='second'>
+     <div className={styles.second}>
     <ul>
           <li>
             <a href='./live'>Live</a>

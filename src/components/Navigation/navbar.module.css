@@ -17,7 +17,7 @@ li {
 	list-style: none;
 }
 
-.main-nav {
+.mainNav {
 	font-size: 18px;
 	font-family: 'Roboto Condensed', sans-serif;
 	width: 100%;
@@ -36,18 +36,18 @@ li {
 	align-items: center;
 }
   
-.menu-link {
+.menuLink {
 	grid-column: 3/4;
 	color: black;
 }
 
-.menu-link ul li a {
+.menuLink ul li a {
 	color: black;
 }
-.menu-link ul li a span {
+.menuLink ul li a span {
 	color: #ff764d;
 }
-.menu-link ul {
+.menuLink ul {
 	
 	height: 3.9rem;
 	display: flex;
