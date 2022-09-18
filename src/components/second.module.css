@@ -1,0 +1,62 @@
+section {
+    display: flex;
+    box-sizing: border-box;
+    /* background-position: 50% 50%; */
+    position: relative;
+}
+
+.firstimg {
+    margin-top: 5%;
+    width: 41.66667vw;
+    height: 41.66667vw;
+    margin-left: 5.33333vw;
+z-index: 1;
+}
+
+.firstimg img {
+    border-radius: 20px;
+}
+
+.secondimg img {
+    border-radius: 50px;
+}
+.secondimg {
+    width: 23.33333vw;
+height: 25vw;
+margin-left: 5.33333vw;
+z-index: 1;
+vertical-align: middle;
+position: relative;
+display: inline;
+margin-top: 15%;
+}
+.yellowBox {
+    top: 0;
+z-index: 0;
+position: absolute;
+width: 58.33333vw;
+height: 58.33333vw;
+left: 39.999999vw;
+background-color: #FBFFA7 !important;
+}
+
+.text {
+    margin-top: 350px;
+    margin-bottom: 150px;
+    margin-left:25%; 
+    margin-right: 25%;
+    text-align: justify;
+    
+}
+
+.text h4 {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+}
+
+.text p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+}
